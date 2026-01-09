@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ""
   }
   stages {
-    stage("Docker Build") {
+    stage("Docker Build"){
       steps {
         script {
             dockerImage = docker.build(registry)
