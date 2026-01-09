@@ -18,4 +18,4 @@ stage ('Docker Build'){
       }
     }
   }
-}
+
